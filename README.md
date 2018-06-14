@@ -31,9 +31,9 @@ $ git clone https://github.com/jsnjfz/weiboscrapy.git
 5.进入项目目录下，运行scrapy crawl weibo即可进行爬取。
 
 # 如何获取cookie
-1.用Chrome打开<https://weibo.com>；
-2.按F12键打开Chrome开发者工具；
-3.点开“Network”，输入微博的用户名、密码，登录；
+1.用Chrome打开<https://weibo.com>；<br>
+2.按F12键打开Chrome开发者工具；<br>
+3.点开“Network”，输入微博的用户名、密码，登录；<br>
 4.点击Chrome开发者工具,点击"Headers"，其中"Request Headers"下，"Cookie"后的值即为我们要找的cookie值，复制即可
 
 # 注意事项
