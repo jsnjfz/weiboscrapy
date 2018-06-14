@@ -39,6 +39,6 @@ $ git clone https://github.com/jsnjfz/weiboscrapy.git
 # 注意事项
 - cookie有期限限制，大约有几天的有效期，超过有效期需重新更新cookie。
 
-#感谢
+# 感谢
 分析微博部分和部分源码参考了https://github.com/SpiderClub/weibospider
 的内容,但由于原作者的框架搭建太庞大，于是根据scrapy框架写了个轻便的爬虫
