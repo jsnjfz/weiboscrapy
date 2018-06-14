@@ -50,7 +50,7 @@ class WechatSpiderPipeline(object):
     # 写入数据库中
     # SQL语句在这里
     def _conditional_insert(self, tx, item):
-        sql = "insert into weibo_copy(comment_cont,comment_screen_name,comment_id,user_id,create_time) values(%s,%s,%s,%s,%s)"
+        sql = "insert into weibo(comment_cont,comment_screen_name,comment_id,user_id,create_time) values(%s,%s,%s,%s,%s)"
         params = (item['comment_cont'], item['comment_screen_name'], item['comment_id'], item['user_id'], item['create_time'])
 
         #防止写入数据库报错 emoji表情问题
